@@ -1,1 +1,1 @@
-print("Welcome to CoCoLab!")
+print("Welcome to Pathfinders Summer School!")

@@ -107,28 +107,6 @@ plt.show()
 
 MNE-Python is a library for analyzing magnetoencephalography (MEG) and electroencephalography (EEG) data. It provides tools for data preprocessing, visualization, and analysis of brain signals.
 
-#### Installing MNE-Python
-
-```bash
-pip install mne
-```
-
-#### Using MNE-Python
-
-```python
-import mne
-
-# Load example MEG data
-sample_data_path = mne.datasets.sample.data_path()
-raw = mne.io.read_raw_fif(sample_data_path + '/MEG/sample/sample_audvis_raw.fif', preload=True)
-
-# Plot the raw data
-raw.plot()
-```
-
-Execute the `libraries.py` script to run all the examples provided above. If you require additional guidance on using the libraries, consult their respective websites or documentation for more detailed instructions and insights.
-
----
 
 ## Functions in Python
 

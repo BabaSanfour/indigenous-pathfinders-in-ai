@@ -9,7 +9,7 @@ fruits = ['apple', 'banana', 'orange']    # a list containing different fruits
 coordinates = (3, 5)                       # a tuple representing coordinates (x, y)
 
 # Creating a dictionary
-person = {'name': 'Hamza', 'age': 26, 'is_student': True}    # a dictionary representing information about a person
+person = {'name': 'Hamza', 'age': 27, 'is_student': True}    # a dictionary representing information about a person
 
 # Accessing and modifying elements in a list and a dictionary
 print(fruits[0])         # Output: apple

@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import mne
 
 # Numpy Examples
 
@@ -36,27 +35,5 @@ plt.plot(x, y)
 plt.xlabel('X-axis')
 plt.ylabel('Y-axis')
 plt.title('Sinusoidal Plot')
-plt.show()
-
-# MNE-Python Examples
-import os # This is a Python module for interacting with the operating system
-
-# define path to data
-path = os.path.join(mne.datasets.sample.data_path(), 'MEG', 'sample', 'sample_audvis_raw.fif')
-
-# Loading example MEG data
-sample_data_path = mne.datasets.sample.data_path()
-raw = mne.io.read_raw_fif(path, preload=True)
-
-# Plotting the raw data
-raw.plot()
-
-# Selecting and plotting a specific range of time
-start, stop = raw.time_as_index([10, 20])  # Selecting data between 10s and 20s
-data, times = raw[:, start:stop]
-plt.plot(times, data.T)
-plt.xlabel('Time (s)')
-plt.ylabel('MEG data (T)')
-plt.title('MEG Data between 10s and 20s')
 plt.show()
 
