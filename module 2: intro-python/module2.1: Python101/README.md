@@ -70,7 +70,7 @@ Virtual environments are typically created using tools like `venv` (built-in wit
 
 2. **Write Your First Code:**
    ```python
-   print("Welcome to CoCoLab!")
+   print("Welcome to Pathfinders Summer School!")
    ```
 
 3. **Run the Python File:**
