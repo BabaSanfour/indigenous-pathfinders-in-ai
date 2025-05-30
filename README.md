@@ -2,7 +2,7 @@
 
 ## Welcome to Your AI Journey!
 
-This starter kit is designed to get you up and running with the essential tools and knowledge you'll need for this AI summer school.
+This starter kit is designed to get you up and running with the essential tools and knowledge you'll need for this AI summer school. You dont need to finish this before starting the school! you could go over it during the first two or three weeks. Most of these materials will be covered by Instructors and TAs too, the goal here is ease you in.
 
 ## What we cover
 
@@ -35,8 +35,7 @@ This starter kit is designed to get you up and running with the essential tools 
 
 1. Start with Module 0 to set up your development environment
 2. Follow the modules in sequence
-3. Complete the hands-on exercises in each module
-4. Don't hesitate to experiment and explore!
+3. Don't hesitate to experiment and explore!
 
 ## Prerequisites
 - A computer with internet access
