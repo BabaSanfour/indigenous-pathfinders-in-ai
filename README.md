@@ -1,13 +1,52 @@
-# Indigenous Pathfinders in AI starting kit
+# Indigenous Pathfinders in AI Summer School Starter Kit 🚀
 
-## Overview
+## Welcome to Your AI Journey!
 
-This repository serves as a starting kit designed for the 2024 cohort of the [`Indigenous Pathfinders in AI`](https://mila.quebec/en/indigenous-pathfinders-in-ai) summer school participants' (Or any interested student if they find it helpful). The aim is to help them familiarize themselves with the tools and technologies that will be used. The course includes the following topics:
+This starter kit is designed to get you up and running with the essential tools and knowledge you'll need for this AI summer school.
 
-- **Introduction to termincal (module0):** Learn the basics of using a terminal.
+## What we cover
 
-- **Introduction to Git (module1):** Learn the basics of version control with Git.
+### 🛠️ Module 0: Essential Tools Setup
+- Basic terminal commands
+- Setting up your development environment
+- Introduction to VSCode
+- Getting started with Google Colab
 
-- **Introduction to Python (module2):** Get started with Python programming, covering fundamental concepts and syntax ranging from python installation to different libraries and the use of VSCode and jupyter notebooks
+### 🔄 Module 1: Version Control & Collaboration
+- Introduction to Git and GitHub
+- Creating your first repository
+- Collaborating with others
+- Best practices for AI projects
 
-## Happy learning!
+### 🐍 Module 2: Python for AI
+- Python fundamentals
+- Essential data structures
+- Functions and object-oriented programming
+- Working with Jupyter notebooks
+
+### 🤖 Module 3: AI Toolkits
+- Introduction to key AI libraries
+- Getting started with scikit-learn
+- Data manipulation with pandas
+- Deep learning with TensorFlow and PyTorch
+- Working with Hugging Face models
+
+## Getting Started
+
+1. Start with Module 0 to set up your development environment
+2. Follow the modules in sequence
+3. Complete the hands-on exercises in each module
+4. Don't hesitate to experiment and explore!
+
+## Prerequisites
+- A computer with internet access
+- Enthusiasm for learning AI! 🎉
+
+## Need Help?
+- Each module contains detailed instructions and examples
+- Check the troubleshooting guides in each module
+- Reach out to instructors and/or TAs
+
+## Happy Learning! 🌟
+
+Remember: Every expert was once a beginner. Take your time, practice, and most importantly, have fun exploring the fascinating world of AI!
