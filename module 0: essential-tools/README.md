@@ -2,11 +2,35 @@
 
 Welcome to the first step! This module will help you set up all the essential tools you'll need.
 
+## Getting Started Options
+
+You have two main options to get started:
+
+### Option 1: Google Colab (Recommended for Beginners)
+Google Colab is a free cloud-based Jupyter notebook environment that requires no setup and runs entirely in the cloud. It's perfect for beginners as it:
+- Requires no installation
+- Provides free GPU/TPU access
+- Has pre-installed AI libraries
+- Works in any browser
+- Saves your work automatically
+
+#### Getting Started with Colab
+1. Visit [colab.research.google.com](https://colab.research.google.com)
+2. Sign in with your Google account
+3. Create a new notebook
+4. Start coding!
+
+### Option 2: Local Development Setup
+If you prefer to work locally, you'll need to set up Python and VSCode on your machine. This option gives you:
+- More control over your environment
+- Offline access
+- Better integration with your local files
+- Custom development environment
+
 ## Table of Contents
 1. [Setting Up Your Development Environment](#setting-up-your-development-environment)
 2. [Introduction to VSCode](#introduction-to-vscode)
-3. [Getting Started with Google Colab](#getting-started-with-google-colab)
-4. [Basic Terminal Commands](#basic-terminal-commands)
+3. [Basic Terminal Commands](#basic-terminal-commands)
 
 ## Setting Up Your Development Environment
 ### What is python? 
@@ -83,26 +107,28 @@ pip install numpy pandas scikit-learn
 - Extensions marketplace
 - IntelliSense
 
-## Getting Started with Google Colab
-
-### What is Google Colab?
-Google Colab is a free cloud-based Jupyter notebook environment that requires no setup and runs entirely in the cloud.
-
-### Getting Started
-1. Visit [colab.research.google.com](https://colab.research.google.com)
-2. Sign in with your Google account
-3. Create a new notebook
-4. Start coding!
-
-### Key Features
-- Free GPU/TPU access
-- Pre-installed AI libraries
-- Easy sharing and collaboration
-- Integration with Google Drive
-
 ## Basic Terminal Commands
 ### What is Terminal:
 A terminal, often referred to as a command line interface (CLI) or console, is a text-based interface used to interact with a computer system. Unlike graphical user interfaces (GUIs) which rely on visual elements like windows and buttons, terminals allow users to perform tasks by typing commands into a prompt. This method of interaction is highly efficient, flexible, and powerful, especially for programming, automating tasks, managing files, and handling data.
+
+### Terminal Options
+Windows, Mac, and Linux each have different terminals! The commands listed here are for Linux/Mac terminals. To use Linux-style commands in Windows, you have two options:
+
+1. **Install Windows Subsystem for Linux (WSL2)**
+   - Follow the installation guide: [WSL Installation](https://learn.microsoft.com/en-us/windows/wsl/install)
+   - This gives you a full Linux environment in Windows
+
+2. **Use Git Bash**
+   - Comes with Git for Windows
+   - Provides a Unix-like command line experience
+
+You can also run Linux commands in a Jupyter notebook by adding an exclamation mark before the command:
+```python
+!ls  # List files
+!pwd  # Show current directory
+!pip install numpy  # Install packages
+```
+This works in both local Jupyter notebooks and Google Colab.
 
 ### Navigation
 ```bash
